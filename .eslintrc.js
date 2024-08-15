@@ -1,4 +1,4 @@
-{
+module.exports = {
   "env": {
     "browser": true,
     "es2021": true
@@ -11,4 +11,4 @@
   "rules": {
     // Add your custom rules here
   }
-}
+};

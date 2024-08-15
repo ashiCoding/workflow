@@ -4,10 +4,12 @@
   "description": "A sample Node.js application",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "echo 'Building the application...' && mkdir -p build && cp -r src/* build/",
-    "test": "echo 'Running tests...' && jest",
-    "lint": "eslint ."
+  "start": "node index.js",
+  "build": "echo 'Building the application...' && mkdir -p build",
+  "test": "echo 'Running tests...' && jest",
+  "lint": "eslint ."
+}
+
   },
   "dependencies": {
     "express": "^4.17.1"

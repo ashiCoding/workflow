@@ -1,19 +1,14 @@
-# Ignore GitHub Actions and related configuration files
-.github/
-
-# Ignore test files and directories
-__tests__/
-
-# Ignore HTML files
-*.html
-
-# Ignore build artifacts if they exist
-build/
-
-# Optionally ignore specific files or directories
-ci-cd-pipeline.yml
-package.json
-.eslintrc.json
-
-# Ignore node_modules directory (commonly ignored by default)
-node_modules/
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    // Add your custom rules here
+  }
+}

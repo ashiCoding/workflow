@@ -9,6 +9,9 @@
     "sourceType": "module"
   },
   "rules": {
-    // Add your custom rules here
+    # .eslintignore
+  node_modules/
+  build/
+
   }
 }

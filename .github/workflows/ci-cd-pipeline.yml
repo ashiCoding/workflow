@@ -32,8 +32,7 @@ jobs:
         name: build-artifacts
         path: build/
 
-      -name: test
-      run: exit 1
+      
   test:
     name: Test
     runs-on: ubuntu-latest

@@ -67,3 +67,4 @@ jobs:
       run: echo "Deploying to Staging Environment..."
       # Replace with actual deployment command, e.g., Azure CLI or AWS CLI
       # e.g., run: az webapp deploy --resource-group <group> --name <app> --src-path ./build
+      #update

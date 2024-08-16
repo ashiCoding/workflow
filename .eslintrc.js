@@ -9,6 +9,6 @@ module.exports = {
     "sourceType": "module"
   },
   "rules": {
-    // Add your custom rules here
+    
   }
 };

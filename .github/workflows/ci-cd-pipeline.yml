@@ -7,7 +7,6 @@ on:
   pull_request:
     branches:
       - main
-dwad awd awdwadwa
 jobs:
   build:
     name: Build
@@ -33,6 +32,8 @@ jobs:
         name: build-artifacts
         path: build/
 
+      -name: test
+      run: exit 1
   test:
     name: Test
     runs-on: ubuntu-latest

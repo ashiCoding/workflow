@@ -12,5 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Print Hello World
-      run: echo "Hello World"
+    - name: failure
+      run: exit 1
+   # - name: Print Hello World
+    #  run: echo "Hello World"
